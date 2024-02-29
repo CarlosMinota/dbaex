@@ -14,9 +14,4 @@ public interface GoogleMapsService {
 
     List<ResponseGoogleDto> getAddressesTextSearch(String address) throws JSONException;
 
-    URI getBaseURI();
-
-    String address(String jsonAddress);
-
-
 }
