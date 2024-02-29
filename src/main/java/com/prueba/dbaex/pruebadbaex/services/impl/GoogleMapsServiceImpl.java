@@ -7,14 +7,14 @@ import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.net.URI;
+
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class GoogleMapsServiceImpl implements GoogleMapsService {
 
-    private static final String apiKey = "AIzaSyAnxqtgXV7FivXxIruCZLa6WmIb9QXGpEE";
+    private static final String apiKey = "";
     private static final String uriGoogle = "https://maps.googleapis.com/maps/api/";
 
     @Override
